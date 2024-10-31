@@ -1,0 +1,41 @@
+body {
+	background-image: url(asset/images/bg-1.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border: 1px solid red;
+	height: 100vh;
+}
+
+.container {
+	width: 90%;
+	max-width: 600px;
+	margin: auto;
+	border: 1px solid red;
+	height: 100%;
+}
+
+.p1 {
+	padding: 1rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.main {
+	border: 1px solid red;
+}
+
+.main-content {
+	border: 1px solid red;
+	padding: 3rem;
+}
