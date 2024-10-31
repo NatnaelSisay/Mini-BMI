@@ -3,17 +3,15 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	border: 1px solid red;
 	height: 100vh;
 
 	font-family: "Mulish", sans-serif;
 }
 
+/* ------- Utility ------- */
 .container {
 	width: 90%;
-	max-width: 600px;
 	margin: auto;
-	border: 1px solid red;
 	height: 100%;
 }
 
@@ -40,13 +38,10 @@ body {
 .justify-center {
 	justify-content: center;
 }
-
-.main {
-	border: 1px solid red;
-}
+/* ------- Utility ------- */
 
 .main-content {
-	padding: 3rem;
+	padding: 2rem 4rem;
 	border-radius: 15px;
 	color: #023047;
 	background-color: hsl(32, 70%, 79%);
@@ -65,6 +60,13 @@ body {
 	margin: 2rem 0;
 }
 
+/* ---- component ---- */
+.form-field {
+	border: none;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
 .btn {
 	margin-top: 1rem;
 	padding: 0.5rem 1.5rem;
@@ -73,8 +75,16 @@ body {
 	font-weight: bold;
 	transition: all 400ms ease-in-out;
 }
+
 .btn:hover {
 	background-color: black;
 	color: white;
 	cursor: pointer;
+}
+/* ---- component ---- */
+
+@media screen and (max-width: 600px) {
+	.heading {
+		font-size: 1.5rem;
+	}
 }
