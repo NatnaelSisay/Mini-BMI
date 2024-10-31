@@ -1,6 +1,6 @@
 # BMI calculator
 Check Your BMI status quickly 
-Live site: [Link](www.google.com)
+Live site: [Link]([www.google.com](https://fancy-churros-caa94a.netlify.app/))
 
 ![screenshot-1](./screenshot/screenshot-1.png)
 
