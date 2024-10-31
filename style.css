@@ -5,6 +5,8 @@ body {
 
 	border: 1px solid red;
 	height: 100vh;
+
+	font-family: "Mulish", sans-serif;
 }
 
 .container {
@@ -23,6 +25,14 @@ body {
 	display: flex;
 }
 
+.flex-vertical {
+	flex-direction: column;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+
 .align-center {
 	align-items: center;
 }
@@ -36,6 +46,35 @@ body {
 }
 
 .main-content {
-	border: 1px solid red;
 	padding: 3rem;
+	border-radius: 15px;
+	color: #023047;
+	background-color: hsl(32, 70%, 79%);
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.heading {
+	font-family: "Roboto Slab", serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.form {
+	margin: 2rem 0;
+}
+
+.btn {
+	margin-top: 1rem;
+	padding: 0.5rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: all 400ms ease-in-out;
+}
+.btn:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
 }

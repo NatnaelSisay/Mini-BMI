@@ -4,6 +4,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet">
+    <!--  -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
@@ -13,21 +20,28 @@
   <body>
     <main class="main container flex justify-center align-center">
       <div class="main-content">
-        <h1 class="heading">calculate your BMI</h1>
-        <p class="sub-heading">Something about BMI</p>
+        <h1 class="heading text-center">Calculate your BMI</h1>
+        <p class="sub-heading text-center">Something about BMI</p>
 
         <form class="form">
-          <div>
+          <div class="flex flex-vertical gap-1 align-center">
             <div class="form-group">
-              <span class="label">Weight(Kg)</span> <input class="form-field" type="number">
+              <span class="label">Weight(Kg)</span>
+              <input class="form-field" type="number" id="weight">
             </div>
             <div class="form-group">
-              <span class="label">Height(cm)</span> <input class="form-field" type="number">
+              <span class="label">Height(cm)</span>
+              <input class="form-field" type="number" id="height">
             </div>
           </div>
-          <button type="submit">Calculate</button>
 
+          <div class="flex align-center justify-center">
+            <button type="submit" class="btn">Calculate</button>
+          </div>
         </form>
+
+        <p class="result" id="result"> Your bmi score is 20, and you are considered to be healthy</p>
+
       </div>
 
       <script src="main.js"></script>
